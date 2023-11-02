@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    margin: 0px 50px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+#posts{
+    width: 400px;
+}
+/* hr{ */
+    /* border-style : solid;  */
+    /* border: 40px solid #000; */
+    /* height: 50px; */
+    /* width: 50%; */
+/* } */
+i{
+    cursor: pointer;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+}
+#msg{
+    color: red;
+}
+/* .left{
+    display: inline-flex;
+}
+.right{
+    display: inline-flex;
+} */

@@ -1,0 +1,2 @@
+"Why nothing is in file"
+There should be some thing

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+
+      .body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 0%;
+        margin: 0%;
+      }
+      .container {
+          height: 748px;
+          width: 748px;
+        display: grid;
+        background-color: #000;
+        gap: 9px;
+        grid-template-columns: 320px 198px 153px 50px;
+        grid-template-rows: 414px 130px 155px 20px;
+      }
+      .Red {
+        height: 414px;
+        width: 320px;
+        background-color: #e72f24;
+      }
+      .White {
+        background-color: #f0f1ec;
+      }
+      .Blue {
+        background-color: #004592;
+        border: 10px solid #000 ;
+      }
+      .Yellow {
+        background-color: #f9d01e;
+      }
+      .Black {
+        background-color: #232629;
+      }
+      .w1 {
+        grid-column: span 3;
+      }
+      .w2 {
+        grid-row: span 2;
+      }
+      .w3 {
+        grid-row: span 2;
+        grid-column: span 2;
+      }
+      .w4 {
+        grid-row: span 2;
+      }
+
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    </style>
+  </head>
+
+  <body class="body">
+    <!-- Write your HTML here -->
+
+        <div class="container">
+          <div class="Red"></div>
+          <div class="White w1"></div>
+          <div class="White w2"></div>
+          <div class="White w3"></div>
+          <div class="Blue"></div>
+          <div class="White w4"></div>
+          <div class="White w5"></div>
+          <div class="Yellow"></div>
+          <div class="Black"></div>
+          <div class="White w5"></div>
+        </div>
+  </body>
+</html>

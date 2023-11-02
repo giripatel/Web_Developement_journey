@@ -1,0 +1,16 @@
+body{
+    background-image: url('image2.JPG');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    backface-visibility: visible;
+}
+.input{
+    /* background: scroll; */
+    background: none;
+    border-color: aqua;
+    border-radius: 5px;
+}
+#button{
+    background-color: pink;
+}
