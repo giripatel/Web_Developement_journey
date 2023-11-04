@@ -11,6 +11,19 @@ function App() {
   const increaseCount = ()=>{
     if(count < 20){
     setCount(count+1);
+
+    //Writing like this won't update the value to +4 because of useState() we incrementing the same value of useState()
+    /*setCount(count+1);
+    setCount(count+1);
+    setCount(count+1);
+    setCount(count+1);*/
+
+    //If the requirement is like above this approch does the job
+    /*prevCounter returns a call back */
+    setCount((prevCounter) => prevCounter+1);
+    setCount((prevCounter) => prevCounter+1);
+    setCount((prevCounter) => prevCounter+1);
+    setCount(prevCounter => prevCounter+1);
     }
   }
   const decreaseCount = () => {
