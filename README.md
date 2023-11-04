@@ -1,2 +1,2 @@
 # Web_Developement_journey
-This is my practice and learing of my web devlopment 
+This is my practice and learning of my web devlopment 
