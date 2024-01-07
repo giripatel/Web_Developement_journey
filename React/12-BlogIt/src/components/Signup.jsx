@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { Button, Input, Logo } from "./index";
 import { useForm } from "react-hook-form";
+import {Button,Input,Logo} from './index'
 import authService from "../appwrite/auth";
 import { login } from "../store/authSlice";
 
-function Signup() {
+export default function Signup() {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [error, setError] = useState("");

@@ -14,4 +14,4 @@ function Button(
     </button>
 }
 
-export default Button
+export default Button;

@@ -5,7 +5,7 @@ import { Button, RTE, Select, Input } from "../index";
 import authService from "../../appwrite/auth";
 import { useForm } from "react-hook-form";
 
-const PostFrom = ({ post }) => {
+const PostForm = ({ post }) => {
   const { register, handleSubmit, setValue, watch, control, getValues } =
     useForm({
       defaultValues: {
@@ -124,4 +124,4 @@ const PostFrom = ({ post }) => {
   );
 };
 
-export default PostFrom
+export default PostForm;

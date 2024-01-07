@@ -1,8 +1,10 @@
 import React from "react";
-import {Container,LogoutBtn,Logo} from '../index'
+import LogoutBtn from './LogoutBtn'
+import Logo from '../Logo'
+import Container from "../container/Container"
 import { Link } from "react-router-dom";
 import {useNavigate} from 'react-router-dom'
-import {useSelector} from "@reduxjs/toolkit"
+import {useSelector} from "react-redux"
 
 function Header(){
     const authStatus = useSelector((state) => state.auth.status)
