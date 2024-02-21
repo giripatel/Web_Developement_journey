@@ -1,0 +1,29 @@
+.overflow {
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto; 
+}
+
+.img1 {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 25px;
+}
+
+.p1 {
+    /* clear: right;     */
+}
+
+.img2 {
+    float: right;
+    /* margin-right: 5px; */
+}
+
+.p2 {
+    margin-top: 25px;
+    clear: left;
+}
+
